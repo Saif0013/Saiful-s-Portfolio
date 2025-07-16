@@ -1,7 +1,4 @@
----
-
-```markdown
-# Domain Specific Medicine Dictionary (DSMD)
+#  Domain Specific Medicine Dictionary (DSMD)
 
 **DSMD** is an intelligent, ontology-driven application for retrieving structured medicine information, answering factual queries, and measuring semantic similarity between brands. It was developed as part of a Master's thesis and is intended for use in healthcare, education, and intelligent AI systems.
 
@@ -10,18 +7,16 @@
 ## 📁 Project Structure
 
 ```
-
 NewDic/
 ├── app.py                        # Entry point of the application
 ├── MedicineApp/                 # Main application package
-│   ├── **init**.py              # Marks the folder as a Python package
+│   ├── __init__.py              # Marks the folder as a Python package
 │   ├── gui.py                   # Tkinter GUI interface
-│   ├── medicine\_ontology.py     # Ontology graph builder
-│   ├── medicine\_query\_engine.py # Query engine for search & reasoning
-│   ├── similarity\_calculator.py # PCA, PCAS, PBAS & distance metrics
+│   ├── medicine_ontology.py     # Ontology graph builder
+│   ├── medicine_query_engine.py # Query engine for search & reasoning
+│   ├── similarity_calculator.py # PCA, PCAS, PBAS & distance metrics
 │   └── Data/
 │       └── dictionary.csv       # Core medicine knowledge graph (CSV)
-
 ```
 
 ---
@@ -40,48 +35,49 @@ The **Domain Specific Medicine Dictionary (DSMD)** enables users to:
 
 ## 🔍 Key Features
 
-### Information Retrieval
-Query brand names directly or with a specific attribute, e.g.:
-```
+### ✅ Information Retrieval
 
+Query brand names directly or with a specific attribute:
+
+```
 A-Care
 A-Care, generic name is
-
 ```
 
-### Question Answering
+### ✅ Question Answering
+
 Ask structured true/false questions like:
-```
-
-type\_of(A-Care, allopathic)
-alternative\_brand(Xinc OT, Zinoret)
 
 ```
+type_of(A-Care, allopathic)
+alternative_brand(Xinc OT, Zinoret)
+```
 
-### Similarity Score
+### ✅ Similarity Score
+
 Calculate semantic similarity (0 to 1) between two brands:
-```
 
+```
 similarity: A-Cal DX, A-Calm
-
 ```
 
-### Distance Score
+### ✅ Distance Score
+
 Get structural/semantic difference between brands:
+
 ```
-
 distance: A-Cal DX, A-Calm
-
-````
+```
 
 ---
 
 ##  How to Use
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Saif0013/Saiful-s-Portfolio/DSMD Prototype.git
-````
+   ```
 
 2. **Install requirements**:
 
@@ -100,7 +96,7 @@ distance: A-Cal DX, A-Calm
 ## 🧪 Example Queries
 
 | Input                                  | Description                       |
-| -------------------------------------- | --------------------------------- |
+|----------------------------------------|-----------------------------------|
 | `A-Care`                               | Full information about A-Care     |
 | `A-Care, generic name is`              | Shows the generic of A-Care       |
 | `A-Care, alternative brand`            | Shows alternative brands          |
@@ -114,15 +110,15 @@ distance: A-Cal DX, A-Calm
 
 ## 📦 Requirements
 
-* Python 3.7 or higher
+- Python 3.7 or higher
 
-Install Python package:
+Install required Python packages:
 
 ```bash
 pip install pandas
 ```
 
-> `tkinter`, `ttk`, `shutil`, and `textwrap` are included in the standard Python distribution.
+> `tkinter`, `ttk`, `shutil`, and `textwrap` are part of the Python standard library.
 
 ---
 
@@ -135,8 +131,6 @@ pip install pandas
 ##  Contact
 
 If you find this project helpful or plan to use it, feel free to cite the original thesis or reach out for collaboration opportunities. Contributions and improvements are welcome!
-
----
 
 
 
