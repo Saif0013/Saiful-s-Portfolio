@@ -1,0 +1,6 @@
+torch==1.13.1
+torchvision>=0.9.1
+tqdm>=4.48.0
+transformers==4.27.0
+wandb==0.15.0
+torchmetrics==0.11.3
