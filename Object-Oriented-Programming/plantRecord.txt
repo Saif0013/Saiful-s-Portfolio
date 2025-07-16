@@ -1,0 +1,13 @@
+3
+Plant
+Aloe Vera
+A little bit wilted, more watering required during hot weather
+Edible
+Grape Vine
+Very good season for the grapes this year, very healthy
+Summer
+True
+Poisonous
+Poison Ivy
+Has overgrown this season, consider trimming heavily soon 
+8 
