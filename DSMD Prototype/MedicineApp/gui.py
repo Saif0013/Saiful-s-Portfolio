@@ -182,8 +182,3 @@ class MedicineAppGUI:
         return f"{predicate.title()} not found for {generic[0]}."
 
 
-# Entry point
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = MedicineAppGUI(root, csv_path="Data/dictionary.csv")
-    root.mainloop()
