@@ -2,8 +2,6 @@
 
 Welcome to my **academic and research code repository**, created to showcase the breadth of programming and applied machine learning experience I gained during my Master's in Data Science.
 
-This repository includes well-documented and modular code covering:
-
 ---
 
 ## 🔍 What's Inside
