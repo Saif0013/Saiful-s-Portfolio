@@ -1,7 +1,7 @@
 ---
 
 ```markdown
-# 🧠 Domain Specific Medicine Dictionary (DSMD)
+# Domain Specific Medicine Dictionary (DSMD)
 
 **DSMD** is an intelligent, ontology-driven application for retrieving structured medicine information, answering factual queries, and measuring semantic similarity between brands. It was developed as part of a Master's thesis and is intended for use in healthcare, education, and intelligent AI systems.
 
@@ -80,8 +80,7 @@ distance: A-Cal DX, A-Calm
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/DSMD.git
-   cd DSMD/NewDic
+   git clone https://github.com/Saif0013/Saiful-s-Portfolio/DSMD Prototype.git
 ````
 
 2. **Install requirements**:
