@@ -1,0 +1,53 @@
+Description 
+
+You have been asked to write some code that will be used in a new games application. 
+The game will generate a collection of number pairs.
+The game will present the number of pairs to the player in a randomised table.
+It is the task of the user to match all the numbers.
+
+
+Input
+
+The program accepts two inputs.
+The first input is an integer and represents the range of numbers used to create the pairs.
+The second input is an integer and represents a seed number for randomisation purposes.
+
+
+Constraints
+
+You can assume:
+The user will input exactly 2 integers.
+You can assume the user will always enter a value divisable by 5 for testing purposes, such as 5, 10, 20.
+Note: For testing purposes, you must use the Random class to create a pseudo-random number generator with a fixed
+seed value, provided as the second input to the program. The program uses this seed value of to ensure a predictable
+result for the purpose of testing. A different seed value may be used for each test case. 
+
+
+Program Logic
+
+Promt the user for the range of numbers.
+Create collection to hold 2 of each number.
+Populate the collection with all the numbers including duplicates in ascending order
+Print the table of numbers in the original order with a maximum of 5 numbers per row.
+Set counter to maximum index of collection to track how many numbers have not been used.
+SEED a randomiser for testing purposes (use the Random class for this).
+Iterate over the collection until all numbers have been used
+	Retrieve a random number (to be used as an index for retrieving a value
+	from the original collection.)
+	IF the number has not been used before (check if the value is equal to zero,
+	meaning it has already been used)
+		Print the number 
+		Set the original number to zero to mark as used
+		IF a new line is required.
+			Print new line
+			Reset new line required counter
+	Decrement unusedNumbers
+
+Output
+
+Your program should output:
+A message prompting the user to input the number range for the game.
+A table displaying all the number pairs with a maximum of 5 numbers per row.
+Each column in the table should be 4 characters wide and the data in the column should be right aligned.
+
+

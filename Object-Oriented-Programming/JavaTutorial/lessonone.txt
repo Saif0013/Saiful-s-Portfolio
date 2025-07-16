@@ -1,0 +1,207 @@
+// Some command prompt commands useful for java and general use
+
+// Use the following command to go back one directory
+cd..                                                      // cd means change directory
+
+// Use the following command to go back to root directory
+cd\
+
+// To enter into a directory
+cd <directory name>
+
+// To make a directory in the current path use the following
+md <path>
+
+// To clear the screen of the command prompt use the following
+clear
+
+// To exit from the command prompt use the following
+exit 
+
+
+
+
+
+/* Java Lesson one */
+
+
+
+
+// How to write comment?
+In Java, there are two types of comment. Single line comment and multiple line comment. 
+Single line comment starts with (//) and is limited to one line only. On the other hand,
+multiline comments can be of multiple lines. Multiline comment starts with (/*) and ends
+with (*/).
+
+For example:
+
+// This is a single line comment
+
+/* This is a multi-line comment. 
+This is a multi-line comment.
+This is a multi-line comment.
+This is a multi-line comment.
+This is a multi-line comment. */
+
+// Why do we write comments?
+To clearly explain java code. To enhance readability of the program.
+To prevent execution of code when testing alternative code.
+
+
+
+
+// Java Program Structure:
+
+public class MyFirstProgram
+{
+    public static void main(String [] args)
+    {
+        System.out.println("My First Java Program");
+    }
+}
+
+
+The above program has an outer shell and a starting point of the main program.
+
+// The outer shell:
+
+public class MyFirstProgram
+{
+
+}
+
+Everything in java program must be inside a class (like the above)
+
+
+// Main program:
+
+public static void main(String [] args)
+{
+
+}
+
+
+This is the starting point of a program when it executes. It is always important to remember the
+correct use of parenthesis. Such as () and {}. parenthesis is always used in pairs like () and {}.
+Incorrect use : ) and }. or ( {. In other words, using single parenthesis. If there is a parenthesis
+missing, program won't compile.
+
+
+
+
+// How to save a program?
+
+In your working directory, a program should be saved with the same name as class name.
+For example, the above program have class name MyFirstProgram. So, the program should be saved as
+
+               MyFirstProgram.Java
+
+If program is saved with different name, it will create a duplicate class file with the program name in
+the working directory after compilation.
+
+            
+             It is important to remember the extension of the file. Extension for java file is:
+
+             .java
+
+So, every java program must be saved with a .java extension. 
+
+
+// How to compile a program?
+
+After saving a program, next step is to compile a program. To compile run the following command in the 
+command prompt:
+
+                javac MyFirstProgram.java 
+
+                To compile a program, you must use a .java extension.
+
+// How to run a program?
+
+To run a program use the following command in the command prompt:
+
+                java MyFirstProgram
+
+                To run a program, you don't need any extension.
+
+
+
+
+                              /* Variables */
+
+Everything must be stored in a memory location to use it in a program. Variables are named memory locations.
+Variables must have a type and a name.
+
+// How to declare a Variable?
+
+Syntax:
+<type> <variable name>;
+
+For example:
+int myNumber;
+
+// How to initialize a variable?
+
+Initializing means, giving a value to the variable.
+
+For example:
+myNumber = 10;
+
+You must declare a variable before initializing.
+
+The easiest way to do this is to declare and initialize in one line. For example:
+
+            int myNumber = 10;
+    
+    Every line of code in java program must end with a semicolon (;).
+
+According to the syntax of variable, int is the data type and myNumber is the variable name. = is an assignment operator.
+10 is the value stored in the memory location which is myNumber. And semicolon to finish the line of code.
+
+
+// Data types in java:
+
+Java has 8 different primitive data type; such as:
+
+                        byte, short, int, long, float, double, boolean, or char
+
+Integer data type: 
+                   byte, short, int, long (and char)
+
+Real number data type:
+                        float, double
+
+There is another type called string (not primitive type).
+
+Most used data types are int, double, string.
+
+
+// Statements
+Every line of code can be called a statement. Every statement must end with a semicolon.
+
+
+// Output:
+To print a statement on the screen, we use:
+
+System.out.println("Things to print go here");
+
+
+// Arithmetic expressions:
+
+            + (addition)
+            - (subtraction)
+            * (multiplication)
+            / (division)
+            % (remainder)
+
+
+
+
+
+
+
+
+
+
+
+

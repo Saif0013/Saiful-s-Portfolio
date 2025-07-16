@@ -1,0 +1,224 @@
+// Question 1
+Write a program to print the area of a rectangle by creating a class named 'Area' having two methods. 
+First method named as 'setDim' takes length and breadth of rectangle as parameters and the second method
+named as 'getArea' returns the area of the rectangle.
+Length and breadth of rectangle are entered through keyboard.
+
+
+// Question 2
+Create a class named 'Student' with String variable 'name' and integer variable 'roll_no'. 
+Assign the value of roll_no as '2' and that of name as "John" by creating an object of the class Student.
+
+// Answer:
+class Student{
+  String name;
+  int roll_no;
+}
+
+class Ans{
+  public static void main(String[] args){
+    Student s = new Student();
+    s.name = "John";
+    s.roll_no = 2;
+    System.out.println("Name is "+s.name+" and roll number is "+s.roll_no);
+  }
+}	
+
+
+// Question 3
+Assign and print the roll number,
+phone number and address of two students having names "Sam" and "John" respectively
+by creating two objects of class 'Student'.
+
+
+
+// Question 4
+ Write a program to print the area and perimeter of a triangle having sides of
+3, 4 and 5 units by creating a class named 'Triangle' without any parameter in its constructor.
+
+
+// Answer:
+
+class Triangle{
+  int a,b,c;
+  public double getArea(){
+    double s = (a+b+c)/2.0;
+    return Math.pow((s*(s-a)*(s-b)*(s-c)),.5);
+  }
+  public double getPerimeter(){
+    return (a+b+c)/2.0;
+  }
+}
+
+class Ans{
+  public static void main(String[] args){
+    Triangle t = new Triangle();
+    t.a = 2;
+    t.b = 5;
+    t.c = 6;
+    System.out.println(t.getArea());
+    System.out.println(t.getPerimeter());
+  }
+}
+
+
+
+// Question 5
+Write a program to print the area and perimeter of a triangle having sides of 3, 4 and 5 units by creating 
+a class named 'Triangle' with constructor having the three sides as its parameters.
+
+
+// Question 6
+Write a program to print the area of two rectangles having sides (4,5) and (5,8) respectively by creating 
+a class named 'Rectangle' with a method named 'Area' which returns the area and length and breadth passed 
+as parameters to its constructor.
+
+// Answer
+class Rectangle{
+  int length;
+  int breadth;
+  public Rectangle(int l, int b){
+    length = l;
+    breadth = b;
+  }
+  public int getArea(){
+    return length*breadth;
+  }
+  public int getPerimeter(){
+    return 2*(length+breadth);
+  }
+}
+
+class Ans{
+  public static void main(String[] args){
+    Rectangle a = new Rectangle(4,5);
+    Rectangle b = new Rectangle(5,8);
+    System.out.println("Area : "+a.getArea()+" Perimeter is "+a.getPerimeter());
+    System.out.println("Area : "+b.getArea()+" Perimeter is "+b.getPerimeter());
+  }
+}								
+
+
+
+// Question 7
+Write a program to print the area of a rectangle by creating a class named 'Area' taking the values 
+of its length and breadth as parameters of its constructor and having a method named 
+'returnArea' which returns the area of the rectangle. Length and breadth of rectangle are entered through keyboard.
+
+
+// Answer
+import java.util.*;
+class Area{
+  int length;
+  int breadth;
+  public Area(int l, int b){
+    length = l;
+    breadth = b;
+  }
+  public int getArea(){
+    return length*breadth;
+  }
+}
+
+class Ans{
+  public static void main(String[] args){
+    Scanner s = new Scanner(System.in);
+    int l,b;
+
+    System.out.println("Enter length");
+    l = s.nextInt();
+    System.out.println("Enter breadth");
+    b = s.nextInt();
+
+    Area a = new Area(l,b);
+    System.out.println("Area : "+a.getArea());
+  }
+}
+
+
+// Question 8
+Print the average of three numbers entered by user by creating 
+a class named 'Average' having a method to calculate and print the average.
+
+// Question 9
+Print the sum, difference and product of two complex numbers by creating 
+a class named 'Complex' with separate methods for each operation whose real and imaginary parts are entered by user.
+
+
+// Answer
+import java.util.*;
+class Complex{
+  int real;
+  int imag;
+  public Complex(int r, int i){
+    real = r;
+    imag = i;
+  }
+
+  public static Complex add(Complex a, Complex b){
+    return new Complex((a.real+b.real),(a.imag+b.imag));
+  }
+
+  public static Complex diff(Complex a, Complex b){
+    return new Complex((a.real-b.real),(a.imag-b.imag));
+  }
+
+  public static Complex product(Complex a, Complex b){
+    return new Complex(((a.real*b.real)-(a.imag*b.imag)),((a.real*b.imag)+(a.imag*b.real)));
+  }
+
+  public void printComplex(){
+    if(real == 0 && imag!=0){
+      System.out.println(imag+"i");
+    }
+    else if(imag == 0 && real!=0){
+      System.out.println(real);
+    }
+    else{
+      System.out.println(real+"+"+imag+"i");
+    }
+  }
+
+}
+
+class Ans{
+  public static void main(String[] args){
+    Complex c = new Complex(4,5);
+    Complex d = new Complex(9,4);
+
+    Complex e = Complex.add(c,d);
+    Complex f = Complex.diff(c,d);
+    Complex g = Complex.product(c,d);
+    e.printComplex();
+    f.printComplex();
+    g.printComplex();
+  }
+}
+
+
+
+
+// Question 10
+
+Write a program that would print the information (name, year of joining, salary, address) of three 
+employees by creating a class named 'Employee'. The output should be as follows:
+Name        Year of joining        Address
+Robert            1994                64C- WallsStreat
+Sam                2000                68D- WallsStreat
+John                1999                26B- WallsStreat
+
+
+
+// Question 11
+Add two distances in inch-feet by creating a class named 'AddDistance'.
+
+
+// Question 12
+
+
+
+
+
+
+
+

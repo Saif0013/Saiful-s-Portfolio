@@ -1,0 +1,42 @@
+Description 
+
+Write a program to calculate Australian taxable income based on the user inputs provided by the user.
+Submit for grading to confirm five tests pass.
+
+Input
+
+Five inputs are required
+Wages Earned - any wages earned in a financial year.
+Interest Earned - any interest earned in the financial year.
+Unemployment benefits - any unemployment benefits earned in a financial year,
+Relationship status (1 = single or 2 = married)
+Taxes withheld (already paid). - not used in this first task, but must still be part of the input.
+
+Constraints 
+
+All inputs to the program when testing will be integers.
+You do not need to write code to force the user to input integers, but just assume that only integers will be used when
+testing the program.
+The calculations provided in this program are only valid for Adjusted Gross Incomes AGI) that are less than $120,000.
+
+Processing
+
+AGI is calculated as the sum of: wages earned + interest earned + any unemployment benefits paid .
+Tax deduction is $12,000 for singles and $24,000 for a married couple
+Taxable income is calculated as the substraction of: AGI - deduction.
+If an invalid input is provided for relationship status it should be set to 1 (single) as a default.
+If a taxable income is calculated as a negative value, then it should be set to SO.
+
+Output
+
+PRINT the AGI and supplementary information as demonstrated in the examples below:
+Note: there should be exactly one space between the colon and the data displayed for the label on each line
+NOTE: Dollar amounts are displayed as integers with comma separators.
+HINT: You should use the printf function to achieve this.
+
+
+
+
+
+
+

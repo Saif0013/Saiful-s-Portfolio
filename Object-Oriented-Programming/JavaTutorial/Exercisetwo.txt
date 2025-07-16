@@ -1,0 +1,69 @@
+// Example of charAt() can be found in the following link
+
+https://www.w3schools.com/java/ref_string_charat.asp
+
+
+// some exercise of charAt() can be found here
+
+https://beginnersbook.com/2013/12/java-string-charat-method-example/
+
+
+// Example of indexOf() can be found here
+
+https://www.w3schools.com/java/ref_string_indexof.asp
+
+
+// some exercise of indexOf() can be found here
+
+https://www.javatpoint.com/java-string-indexof
+
+
+
+// your task is researching on substring() method yourself
+
+
+
+
+// Method exercise
+
+// Ex 1.
+Write a Java method to find the smallest number among three numbers. Use user input.
+
+You should input the follwing in the terminal:
+
+Input the first number: 25
+Input the Second number: 37
+Input the third number: 29
+
+Expected Output:
+The smallest value is 25.0
+
+Solution in SmallNumber program.
+
+
+// Ex 2.
+Write a Java method to compute the average of three numbers. Use user input.
+
+You should input the follwing in the terminal:
+
+Input the first number: 25
+Input the second number: 45
+Input the third number: 65
+
+Expected Output:
+The average value is 45.0
+
+Solution in Exercise2 program.
+
+
+// Ex 3.
+Write a Java method to count all words in a string. Use user input.
+
+You should input the follwing in the terminal:
+
+Input the string: The quick brown fox jumps over the lazy dog.
+
+Expected Output:
+Number of words in the string: 9
+
+Solution in WordCount program.

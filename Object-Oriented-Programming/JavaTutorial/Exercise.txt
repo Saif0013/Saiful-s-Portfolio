@@ -1,0 +1,137 @@
+// Please go to the following link to learn about java type casting. It's very important.
+
+https://www.w3schools.com/java/java_type_casting.asp
+
+
+// Please go to the following link to learn about java Math class
+
+https://www.w3schools.com/java/java_math.asp
+
+
+// Please try to do the following programs to enhance your java skills.
+
+
+// Question 1
+
+The following results are the number of formal two party preferred votes cast in the 2013 Australian Federal election.
+
+Liberal/National Coalition 6,818,824 formal votes
+Australian Labor Party 6,722,277 formal votes
+
+Write a program to calculate and display to screen the total number of formal votes. Use 
+variables to store the given data. Try to choose meaningful names for the variables.
+
+
+(Hint: this is a simple program of adding two numbers only.)
+
+
+Extend the previous program to calculate and display the percentage of formal votes for 
+the Liberal/National Coalition and the percentage for the Australian Labor Party.
+
+(Hint: This can be achieved by dividing each party votes againts total votes and then multiplying with 100.)
+
+
+
+
+
+// Question 2
+
+a. Write a program that will count down, displaying all the integers between 20 and 0 
+inclusive using while loop.
+b. Rewrite the same program using for loop
+
+
+
+
+// Question 3
+
+Write a program that checks if an integer variable key, is odd or even. Assign a value to key 
+and check different values by running your code multiple times. 
+a. If the variable is even and divisible by 4, output to screen the message "even again", 
+otherwise output "only even". 
+a. If the variable is odd and negative, output to screen the message "negatively odd", 
+otherwise output "positively odd".
+
+(Hint: This can be achieved using if else statement or switch case.)
+
+
+
+// Question 4
+
+An investment account has the initial balance of $25,000. Write a program that uses a for
+loop to determine what the balance after 10 years is if the interest is compounded yearly at 
+the rate of 4%?
+Also, output the running balance each year by putting a print statement within the loop 
+body.
+
+(Hint: This one is a little tricky. Try to do it step by step.)
+
+
+
+
+
+// Question 5 (Math class problem)
+
+
+The following program uses equations of motion. However, it is missing some code. 
+Write some code to make it function. Write code where you find (// ADD CODE HERE) this line.
+
+
+public class PhysicsCalc
+{
+ public static void main(String[] args)
+ {
+ double time = 3.0;
+ double initialVelocity = 4.5;
+ double acceleration = 9.5;
+ double finalVelocity = 0;
+ double displacement = 0;
+ 
+ // Equation 1
+ // ADD CODE HERE
+ 
+ System.out.println("Equation 1: " + displacement);
+ // Equation 2
+ // ADD CODE HERE
+
+ System.out.println("Equation 2: " + displacement);
+
+ // Equation 3
+ // ADD CODE HERE
+
+ System.out.println("Equation 3: " + finalVelocity);
+
+// Equation 4
+ // ADD CODE HERE
+
+ System.out.println("Equation 4: " + finalVelocity);
+ }
+}
+
+
+Please find a screen shot in the email for the equations.
+
+
+
+
+// Question 6
+
+a. Write a program that will store a person's name as a string and display a welcome 
+message "Hello [name]" to that person. 
+
+Output: 
+Hello William
+
+b. Change the above program so that the string now stores person's full name (their first 
+and last name (i.e. Fred Jones)) and the program will display "Jones, F.". Assume single 
+word first and last names are entered. (Practice with indexOf, charAt and substring, 
+all from the String class) 
+
+Output: 
+Jones, F.
+
+
+
+
+
+
